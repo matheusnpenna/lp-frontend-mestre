@@ -1,0 +1,69 @@
+// estilos globais que devem ser aplicados em todas as páginas
+
+body {
+  font-family: Lora; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+.btn,
+strong {
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 600px;
+  
+  &.big {
+    max-width: 900px;
+  }
+}
+
+:focus {
+  outline: none !important;
+}
+
+.btn:focus,
+.btn.focus {
+  box-shadow: none;
+}
+
+.big {
+  font-size: 30px;
+  
+  @media screen and (max-width: 700px) {
+    font-size: 24px;
+  }
+}
+
+.btn {
+  border-radius: 8px;
+
+}
+
+.btn-lg {
+  padding: 12px 16px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 18px;
+  }
+}
+
+hr {
+  margin: 48px 0;
+  border-color: #222;
+  border-width: 2px;
+}

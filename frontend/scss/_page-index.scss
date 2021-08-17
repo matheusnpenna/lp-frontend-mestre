@@ -1,0 +1,70 @@
+.page-index {
+  background-image: url(../images/bg.jpg?v=1.0.0);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h4, h1, p, span, strong {
+    font-family: Lora; 
+    color: #E3E3E3;
+    line-height: 1.7rem;
+  }
+
+  .text-justify-no-lg {
+    @media screen and (max-width: 991px) {
+      text-align: justify;
+    }
+  }
+
+  i {
+    color: #FFF;
+  }
+
+  header {
+    h1 {
+      font-family: Bebas Neue;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 2.5rem;
+      span {
+        font-family: Bebas Neue;
+      }
+    } 
+  }
+
+  .underline-margin {
+    margin-top: -5px;
+  }
+
+  .painted-underline {
+    margin-top: -2%;
+    width: 115px;
+  }
+
+  .painted-circle-area {
+    position: relative;
+    .painted-circle {
+      position: absolute;
+      left: 50%;
+      top: 65%;
+      transform: translate(-50%, -50%);
+      height: 50px;
+    } 
+  }
+
+  .signature {
+    text-shadow: #000;
+  }
+
+  .centra-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .blue-underline {
+    border-bottom: 3px solid #1A78A1;
+    border-radius: 20% 10% 20% 10%;
+  }
+}
